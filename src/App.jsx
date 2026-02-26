@@ -1,11 +1,13 @@
-import pnLogo from "./assets/pn-logo.png";
+
+import Header from "./components/Header.jsx";
 
 function App() {
   return (
     <>
+      <Header batchName="Batch 123" />
       <header id="header">
-        <img src={pnLogo} alt="PN Logo" />
-        <h1>Students results for (fake batch name))</h1>
+          <img src={pnLogo} alt="PN Logo" />
+          <h1>Students results for (fake batch name)</h1>
       </header>
 
       <main className="scores-container">
