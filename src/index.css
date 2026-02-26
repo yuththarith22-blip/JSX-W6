@@ -109,3 +109,33 @@ body {
 .warning {
   color: var(--secondary-color);
 }
+
+.statistic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0.5rem 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  background: var(--white-color);
+  color: #2f3432;
+}
+
+.statistic div {
+  text-align: center;
+}
+
+.statistic span {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.statistic p {
+  margin: 0.2rem 0 0;
+  font-size: 1.8rem;
+  line-height: 1;
+}
