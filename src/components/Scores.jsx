@@ -17,7 +17,7 @@ function Scores ({ courseName, courseResults }) {
                         <tr key={`${result.firstName}-${result.lastName}`}>
                             <td>{result.firstName}</td>
                             <td>{result.lastName}</td>
-                            <td>{result.score}</td>
+                            <td className={result.score <50 ? "warning" : ""}>{result.score}</td>
                         </tr>
                     ))}
                 </tbody>
